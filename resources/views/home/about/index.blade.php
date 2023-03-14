@@ -27,7 +27,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum veniam velit, eius in obcaecati
             sint
             ullam soluta iste sit vel! Possimus modi odit iste quis? Itaque sed nisi veritatis.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores itaque odit sint delectus necessitatibus
+            Lorem ipsum dolor Lorem amet consectetur adipisicing elit. Maiores itaque odit sint delectus necessitatibus
             fugit
             nulla exercitationem obcaecati natus consectetur iusto sit voluptatum aperiam veniam, placeat aut,
             voluptatibus,
