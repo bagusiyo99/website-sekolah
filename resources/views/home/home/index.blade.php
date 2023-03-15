@@ -44,35 +44,35 @@
     <div class="fe-box">
         <a>
             <img src="img/icon/1.jpg" alt="">
-            <h6> Kurikulum </h6>
+            <h6> Menu </h6>
         </a>
     </div>
 
     <div class="fe-box">
         <a>
             <img src="img/icon/2.jpg" alt="">
-            <h6> Prestasi </h6>
+            <h6> Harga </h6>
         </a>
     </div>
 
     <div class="fe-box">
         <a>
             <img src="img/icon/3.jpg" alt="">
-            <h6> Akreditasi </h6>
+            <h6> Diskon </h6>
         </a>
     </div>
 
     <div class="fe-box">
         <a>
             <img src="img/icon/4.jpg" alt="">
-            <h6> Daftar</h6>
+            <h6> Pesan </h6>
         </a>
     </div>
 
     <div class="fe-box">
         <a>
             <img src="img/icon/5.jpg" alt="">
-            <h6> Alumni </h6>
+            <h6> Voucher </h6>
         </a>
     </div>
 

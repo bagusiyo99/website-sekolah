@@ -35,17 +35,6 @@
                             </a>
                         </li>
 
-
-                        <li class="nav-item">
-                            <a href="/admin/jurusan"
-                                class="nav-link  {{ Request::is('admin/jurusan*') ? 'active' : '' }}">
-                                <i class="nav-icon fa fa-file-contract"></i>
-                                <p>
-                                    Jurusan
-                                </p>
-                            </a>
-                        </li>
-
                         <li class="nav-item">
                             <a href="/admin/banner"
                                 class="nav-link  {{ Request::is('admin/banner*') ? 'active' : '' }}">

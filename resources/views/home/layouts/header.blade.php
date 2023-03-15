@@ -39,7 +39,7 @@
                 </li>
 
                 <li class="nav-item mx-2">
-                    <a class="nav-link  {{ Request::is('jurusan') ? 'menu-active' : '' }}" href="/jurusan">Jurusan</a>
+                    <a class="nav-link  {{ Request::is('menu') ? 'menu-active' : '' }}" href="/menu">Menu</a>
                 </li>
 
 

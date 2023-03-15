@@ -12,12 +12,10 @@ use App\Http\Controllers\admin\AdminDasboard;
 use App\Http\Controllers\admin\AdminInformasi;
 use App\Http\Controllers\admin\AdminPesan;
 use App\Http\Controllers\admin\AdminFoto;
-use App\Http\Controllers\admin\AdminJurusan;
 use App\Http\Controllers\home\Home;
 use App\Http\Controllers\home\HomeContact;
 use App\Http\Controllers\home\HomeFoto;
 use App\Http\Controllers\home\HomeInformasi;
-use App\Http\Controllers\home\HomeJurusan;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,11 +35,9 @@ Route::get('/informasi', [HomeInformasi::class, 'index']);
 Route::get('/informasi/{id}', [HomeInformasi::class, 'informasi']);
 Route::get('/foto', [HomeFoto::class, 'index']);
 Route::get('/show/{id}', [HomeFoto::class,'detail']);
-Route::post('/siswa/send', [HomeSiswa::class, 'send']);
 Route::get('/contact', [HomeContact::class, 'index']);
 Route::post('/contact/send', [HomeContact::class, 'send']);
-Route::get('/jurusan', [HomeJurusan::class, 'index']);
-Route::get('/show/{id}', [HomeJurusan::class,'detail']);
+
 
 Route::get('/alamat', function () {
     $data = [
@@ -61,7 +57,6 @@ Route::prefix('/admin')->group(function (){
     Route::resource('/banner', AdminBanner::class);
     Route::resource('/informasi', AdminInformasi::class);
     Route::resource('/foto', AdminFoto::class);
-    Route::resource('/jurusan', AdminJurusan::class);
 
 
 
