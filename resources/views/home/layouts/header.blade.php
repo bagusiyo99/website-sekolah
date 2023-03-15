@@ -39,6 +39,11 @@
                 </li>
 
                 <li class="nav-item mx-2">
+                    <a class="nav-link  {{ Request::is('jurusan') ? 'menu-active' : '' }}" href="/jurusan">Jurusan</a>
+                </li>
+
+
+                <li class="nav-item mx-2">
                     <a class="nav-link  {{ Request::is('informasi') ? 'menu-active' : '' }}"
                         href="/informasi">Informasi</a>
                 </li>
